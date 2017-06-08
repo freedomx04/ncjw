@@ -1,0 +1,32 @@
+.i-inline {
+	display: inline-block!important;
+}
+.i-fr {
+	float: right!important;
+}
+.i-fl {
+	float: left!important;
+}
+.i-cf {
+	clear: both;
+}
+.i-bold {
+	font-weight: bold!important;
+}
+.i-mt20 {
+	margin-top: 30px;
+}
+.i-font-8 {
+	font-size: 8px;
+}
+.i-font-14 {
+	font-size: 14px;
+}
+.i-hide {
+	display: none!important;
+}
+.ellipsis {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}

@@ -1,0 +1,64 @@
+#toplinecontainer {
+    margin: 0 auto;
+    background-color: #ebeaea;
+    display: block;
+    padding-bottom: 10px;
+}
+#position {
+    display: block;
+    width: 980px;
+    height: 40px;
+    background-color: #fff;
+    margin: 0 auto 10px;
+    white-space: nowrap;
+}
+#position p {
+    margin: 0 10px;
+}
+#position span {
+    font-size: 14px;
+    color: #202020;
+    height: 40px;
+    line-height: 40px;
+}
+#topline {
+    width: 980px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.tophead {
+    width: 980px;
+    border-bottom: 5px solid #c6252b;
+}
+.tophead h1 {
+    width: 980px;
+    color: #15537f;
+    text-align: center;
+    line-height: 40px;
+    font-family: "微软雅黑";
+    padding-top: 10px;
+}
+.authortime {
+    display: block;
+    width: 980px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+.authortime span {
+    color: #202020;
+    font-size: 14px;
+}
+.author {
+    margin-left: 20px;
+}
+.toplinecon {
+    width: 980px;
+    height: 100%;
+    padding-top: 23px;
+}
+.toplinetxt {
+    width: 850px;
+    padding: 0 65px 50px 65px;
+    height: 100%;
+}

@@ -1,0 +1,95 @@
+.other_left {
+    float: left;
+    width: 208px;
+    margin-left: 9px;
+    padding-top: 10px;
+    padding-bottom: 160px;
+}
+.other_left .channl_box {
+    margin: 0px 20px 0px 11px;
+    line-height: 30px;
+    padding: 5px 0px;
+    border-bottom: 1px solid #C9C9C9;
+}
+.other_left .channl {
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #A30000;
+    padding: 5px;
+}
+.other_left .channl a {
+    color: #A30000;
+}
+.pub_center {
+    float: right;
+    width: 700px;
+    padding-bottom: 5px;
+    margin-top: 2px;
+}
+.other_center {
+    margin-right: 9px;
+}
+.other_center .tith2 {
+    margin: 20px 10px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #A30000;
+    text-align: left;
+}
+.redline {
+    margin-top: -15px;
+    border-top: 3px solid #A30000;
+    width: 680px;
+    text-align: left;
+    padding-top: 0px;
+    margin-left: 10px;
+}
+.list_news_dl {
+    margin: 0 15px;
+}
+.list_news_dl li {
+    margin: auto;
+    position: relative;
+    padding: 5px 0px 5px 15px;
+    font-size: 20px;
+    line-height: 30px;
+    min-height: 30px;
+    vertical-align: top;
+    text-align: left;
+}
+.list_news_dl li a {
+    position: relative;
+    float: left;
+    color: #54576C;
+    width: 660px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list_news_dl li a:hover {
+    color: #c6242f;
+}
+.page {
+    vertical-align: middle;
+    font-size: 15px;
+    color: #676766;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.page a {
+    vertical-align: middle;
+    display: inline-block;
+    zoom: 1;
+    margin: 0 1px;
+    min-width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #676766;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,50 @@
+.font-bold {
+	font-weight: bold;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.clickableText {
+	color: #11c;
+	cursor: pointer;
+}
+.clickableText:hover {
+	color: #59A8D4;
+}
+
+.clickableLink {
+	color: #11c;
+	cursor: pointer;
+}
+.clickableLink:hover {
+	text-decoration: underline;
+}
+
+.ellipsis {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.text-red {
+	color: red;
+}
+
+.table-striped,
+.table-condensed {
+	font-size: 14px;
+}
+
+.table-striped .index {
+	width: 1px!important;
+}
+.table-striped thead > tr > th {
+	padding-left: 8px!important;
+	padding-right: 8px!important;
+}
+
+.table-striped .btn {
+	padding: 2px 12px!important;
+} 
