@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>中共南城县纪律检查委员会-南城县监察局</title>
+<title>南城廉政网</title>
 <meta name="keywords" content="南城廉政网,江西南城廉政网,中共南城县纪律检查委员会,南城县监察局,南城县纪律监察局网站" />
 <meta name="description" content="中共南城县纪律检查委员会-南城县纪律监察局网站" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
