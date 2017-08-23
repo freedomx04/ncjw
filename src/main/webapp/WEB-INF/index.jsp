@@ -349,6 +349,8 @@
 	});
 })();
 function searchArticle(page) {
+	$home.find("#content").html('<div style="text-align: center;"><img src="img/loading.gif"></div>');
+	
 	var size = 10;
 	$.ajax({
 		url: "article/search",
