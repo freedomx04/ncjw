@@ -122,8 +122,8 @@
 			</div>
 			<div class="report-contact">
 				<p style="font-size: 20px;">举报方式:</p>
-				<p>南城县扶贫领域违纪问题举报电话：0794—7177029</p>
-				<p>来信举报，请寄：南城县扶贫领域监督执纪问责办（县行政中心320室），邮编：344700</p>
+				<p>南城县扶贫领域违纪问题举报电话：0794—7177007；0794—12388</p>
+				<p>来信举报，请寄：南城县纪委信访室（县行政中心317室），邮编：344700</p>
 			</div>
 		</div>
 	</div>
@@ -287,7 +287,7 @@
 	$home.find("#content").html($(".template.Main").doT());
 	
 	articleListByType(1, 3, $home.find(".organ ul"));
-	articleListByType(3, 6, $home.find(".annouce_news ul"));
+	articleListByType(3, 9, $home.find(".annouce_news ul"));
 	articleListByType(4, 6, $home.find(".public_info ul"));
 	articleListByType(5, 10, $home.find(".exposure ul"));
 	articleListByType(6, 6, $home.find(".integrity_education ul"));
