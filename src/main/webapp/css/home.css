@@ -1,10 +1,10 @@
-ï»¿*{
+*{
 	padding:0;
 	margin:0;
 }
 body{
 	background-color: #FFFFFF;
-	font-family: "Microsoft Yahei","æ–°ç´°æ˜é«”";
+	font-family: "Microsoft Yahei","ĞÂ¼šÃ÷ów";
 	line-height: 1.6;
 	font-size: 16px;
 }
@@ -28,7 +28,7 @@ a:hover {
 li {
 	list-style: none;
 }
-/** å¤´éƒ¨åŠå¯¼èˆªæ  **/
+/** Í·²¿¼°µ¼º½À¸ **/
 #home {
 	width: 100%;
 	background-color: #f6f6f6;
@@ -44,7 +44,7 @@ li {
 #topbar {
     background: none repeat scroll 0 0 #15537f;
     color: #fff;
-    font: 14px/2 Arial,Tahoma,"å¾®è½¯é›…é»‘";
+    font: 14px/2 Arial,Tahoma,"Î¢ÈíÑÅºÚ";
     height: 30px;
     width: 100%;
 }
@@ -188,16 +188,15 @@ header .nav_wraper {
 	width: 49%;
 	float: left;
 }
-.annouce_news, .public_info,
-.exposure, .project_highlights, .dynamic_work, 
-.integrity_education {
-	height: 250px;
+.public_info, .project_highlights, 
+.dynamic_work, .integrity_education {
+	height: 210px;
 }
 .exposure {
 	height: 318px;
 }
 .organ {
-	height: 218px;
+	height: 120px;
 }
 .publicity_pictures li:first-child a, .annouce_news li:first-child a, 
 .public_info li:first-child a, .exposure li:first-child a, 
@@ -218,10 +217,13 @@ header .nav_wraper {
 div.slideBox ul.items li a {
 	float: none!important;
 }
-.annouce_news, .exposure, .project_highlights, .public_info,
+.exposure, .project_highlights, .public_info,
 .site, .report, .organ, .dynamic_work, .integrity_education {
 	border-top: 2px solid #c9c9c9;
 	margin-top: 18px;
+}
+.annouce_news {
+	border-top: 2px solid #c9c9c9;
 }
 #content .menu {
 	color: #c72729;
@@ -391,4 +393,12 @@ footer .siteInfo {
     line-height: 30px;
     width: 80px;
     font-size: 12px;
+}
+
+.report-contact {
+	background-color: #9B1017;
+	border-radius: 0 0 15px 15px;
+	color: #fff;
+	padding: 5px 20px;
+	font-size: 14px;
 }
