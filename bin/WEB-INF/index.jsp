@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>中共南城县纪律检查委员会-南城县监察局</title>
+<title>南城廉政网</title>
 <meta name="keywords" content="南城廉政网,江西南城廉政网,中共南城县纪律检查委员会,南城县监察局,南城县纪律监察局网站" />
 <meta name="description" content="中共南城县纪律检查委员会-南城县纪律监察局网站" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
@@ -112,13 +112,18 @@
 		</div>
 		<div class="report">
 			<div class="menu"><a>举报</a></div>
-			<div>
+			<div style="height: 51px;">
 				<a href="rpguide" target="_blank">
 					<img src="img/jubao_01.png">
 				</a>
-				<a href="report" target="_blank">
+				<a href="report" target="_blank" style="float: right;">
 					<img src="img/jubao_02.png">
 				</a>
+			</div>
+			<div class="report-contact">
+				<p style="font-size: 20px;">举报方式:</p>
+				<p>南城县扶贫领域违纪问题举报电话：0794—7177007；0794—12388</p>
+				<p>来信举报，请寄：南城县纪委信访室（县行政中心317室），邮编：344700</p>
 			</div>
 		</div>
 	</div>
@@ -138,7 +143,7 @@
 	</div>
 </div>
 <div>
-	<img src="img/bg_01.jpg" style="width: 100%; height: 90px; background-color:red; margin-top: 20px;"/>
+	<img src="img/bg_01.jpg" style="width: 100%; height: 90px; background-color:red;"/>
 </div>
 <div>
 	<div class="dynamic_work ">
@@ -153,7 +158,7 @@
 	</div>
 </div>
 <div class="site i-cf" style="margin-top: 20px;">
-	<div class="menu">　</div>
+	<div class="menu">网站链接</div>
 	<ul class="site_img">
 		<li><a href="http://www.ccdi.gov.cn/" target="_blank"><img src="img/site/site_01.jpg"></a></li>
 		<li><a href="http://www.jx.gov.cn" target="_blank"><img src="img/site/site_02.jpg"></a></li>
@@ -282,9 +287,9 @@
 	$home.find("#content").html($(".template.Main").doT());
 	
 	articleListByType(1, 3, $home.find(".organ ul"));
-	articleListByType(3, 6, $home.find(".annouce_news ul"));
+	articleListByType(3, 9, $home.find(".annouce_news ul"));
 	articleListByType(4, 6, $home.find(".public_info ul"));
-	articleListByType(5, 6, $home.find(".exposure ul"));
+	articleListByType(5, 10, $home.find(".exposure ul"));
 	articleListByType(6, 6, $home.find(".integrity_education ul"));
 	articleListByType(7, 6, $home.find(".dynamic_work ul"));
 	topicList();
@@ -344,7 +349,9 @@
 	});
 })();
 function searchArticle(page) {
-	var size = 2;
+	$home.find("#content").html('<div style="text-align: center;"><img src="img/loading.gif"></div>');
+	
+	var size = 10;
 	$.ajax({
 		url: "article/search",
 		type: "POST",
@@ -367,11 +374,11 @@ function searchArticle(page) {
 }
 function topicList() {
 	$.ajax({
-		url: "topic/list",
+		url: "topic/listPaging",
 		type: "POST",
 		data: {
 			page: 0,
-			size: 5,
+			size: 6,
 		},
 		success: function(data) {
 			if(data.status == 0) {
