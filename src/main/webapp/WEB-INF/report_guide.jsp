@@ -121,7 +121,7 @@
 					<div class="toplinetxt" style="padding-bottom: 20px; padding-top: 10px;">
 						<p>
 							<span style="font-family: 华文新魏; font-size: 19px; font-weight: bold;">四、我要举报 </span>
-							<a href="report" target="_blank" style="color: blue; font-size: 20px; text-decoration: underline;">点击此处</a>
+							<a href="http://jiangxi.12388.gov.cn/jiangxi/fuzhoushi/guangchangxian/" target="_blank" style="color: blue; font-size: 20px; text-decoration: underline;">点击此处</a>
 						</p>
 					</div>
 				</div>

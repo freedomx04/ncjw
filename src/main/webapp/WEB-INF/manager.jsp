@@ -75,9 +75,9 @@
                         <li class="module" module="topic">
                         	 <a href="#4"><i class="fa fa-list fa-fw"></i> 专题集锦</a>
                         </li>
-                        <li class="module" module="report">
+<!--                         <li class="module" module="report">
                             <a href="#5"><i class="fa fa-envelope fa-fw"></i> 举报管理</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
