@@ -116,7 +116,7 @@
 				<a href="rpguide" target="_blank">
 					<img src="img/jubao_01.png">
 				</a>
-				<a href="http://jiangxi.12388.gov.cn/jiangxi/fuzhoushi/guangchangxian/" target="_blank" style="float: right;">
+				<a href="http://jiangxi.12388.gov.cn/jiangxi/fuzhoushi/nanchengxian/" target="_blank" style="float: right;">
 					<img src="img/jubao_02.png">
 				</a>
 			</div>
