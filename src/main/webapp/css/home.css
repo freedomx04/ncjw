@@ -4,16 +4,13 @@
 }
 body{
 	background-color: #FFFFFF;
-	font-family: "Microsoft Yahei","ÐÂ¼šÃ÷ów";
+	font-family: "Microsoft Yahei","ï¿½Â¼ï¿½ï¿½ï¿½ï¿½w";
 	line-height: 1.6;
 	font-size: 16px;
 }
 a {
 	text-decoration: none;
 	color: #000;
-}
-p {
-    word-wrap: break-word;
 }
 h1 {
     font-size: 25px;
@@ -28,7 +25,7 @@ a:hover {
 li {
 	list-style: none;
 }
-/** Í·²¿¼°µ¼º½À¸ **/
+/** Í·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ **/
 #home {
 	width: 100%;
 	background-color: #f6f6f6;
@@ -44,7 +41,7 @@ li {
 #topbar {
     background: none repeat scroll 0 0 #15537f;
     color: #fff;
-    font: 14px/2 Arial,Tahoma,"Î¢ÈíÑÅºÚ";
+    font: 14px/2 Arial,Tahoma,"Î¢ï¿½ï¿½ï¿½Åºï¿½";
     height: 30px;
     width: 100%;
 }

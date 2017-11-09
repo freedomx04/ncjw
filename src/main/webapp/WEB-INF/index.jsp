@@ -24,6 +24,22 @@
 <script type="text/javascript" src="vendor/jquery/jquery-doT.js"></script>
 <script type="text/javascript" src="vendor/doT/1.0.1/doT.js"></script>
 
+<style type="text/css">
+.report-button {
+	padding: 6px 12px;
+	width: 100%;
+	background-color: #f0ad4e;
+	color: #fff;
+	line-height: 2;
+	cursor: pointer;
+	font-size: 16px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	letter-spacing: 8px;
+	font-weight: 600;
+}
+</style>
+
 <%@ include file="/WEB-INF/template/top.jsp"%>
 <%@ include file="/WEB-INF/template/footer.jsp"%>
 <script type="text/javascript">
@@ -113,17 +129,14 @@
 		<div class="report">
 			<div class="menu"><a>举报</a></div>
 			<div style="height: 51px;">
-				<a href="rpguide" target="_blank">
-					<img src="img/jubao_01.png">
-				</a>
-				<a href="http://jiangxi.12388.gov.cn/jiangxi/fuzhoushi/nanchengxian/" target="_blank" style="float: right;">
-					<img src="img/jubao_02.png">
+				<a href="http://jiangxi.12388.gov.cn/fuzhoushi/nanchengxian/" target="_blank">
+					<button class="report-button">我要举报</button>
 				</a>
 			</div>
 			<div class="report-contact">
-				<p style="font-size: 20px;">举报方式:</p>
-				<p>南城县扶贫领域违纪问题举报电话：0794—7177007；0794—12388</p>
-				<p>来信举报，请寄：南城县纪委信访室（县行政中心317室），邮编：344700</p>
+				<p>举报电话:&nbsp;&nbsp;(0794)7177007;&nbsp;&nbsp;(0794)12388</p>
+				<p>来信请寄:&nbsp;&nbsp;南城县纪委信访室（县行政中心317室）</p>
+				<p>邮编:&nbsp;&nbsp;344700</p>
 			</div>
 		</div>
 	</div>
