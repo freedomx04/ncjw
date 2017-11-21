@@ -299,7 +299,7 @@
 	</span>
 
 	<a href="http://jiangxi.12388.gov.cn/fuzhoushi/nanchengxian/" target="_blank" alt="扶贫领域违纪问题举报直通车">
-		<img style="width:300px;" src="img/fp/ncfp2.jpg" alt="扶贫领域违纪问题举报直通车">
+		<img style="width:300px;" src="img/fp/ncfp3.jpg" alt="扶贫领域违纪问题举报直通车">
 	</a>
 </div>
 <script type="text/javascript">
