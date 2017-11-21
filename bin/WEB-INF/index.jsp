@@ -290,6 +290,24 @@
 </div>
 </script>
 
+<!-- 悬浮窗口 -->
+<div id="ad_377" style="z-index: 9999999; position: absolute; left: 1521.71px; top: 1397.12px;">
+	<script type="text/javascript" src="vendor/local/js/MoveAd.js"></script>
+	<span onclick="document.getElementById(&#39;ad_377&#39;).style.display=&#39;none&#39;;" 
+		style="float: right; position: absolute; top: -20px; right: 0px; cursor: pointer">
+		<img src="img/fp/close.gif" alt="关闭">
+	</span>
+
+	<a href="http://jiangxi.12388.gov.cn/fuzhoushi/nanchengxian/" target="_blank" alt="扶贫领域违纪问题举报直通车">
+		<img style="width:300px;" src="img/fp/ncfp2.jpg" alt="扶贫领域违纪问题举报直通车">
+	</a>
+</div>
+<script type="text/javascript">
+	var ad_377=new AdMove("ad_377");
+	ad_377.Run();
+</script>
+
+
 <script>
 ;(function() {
 	$home = $("#home");
