@@ -95,16 +95,10 @@ li {
     height: 360px;
     position: relative;
 }
-.topimgcon img {
-    height: 100%;
-    width: 100%;
-}
 .topimgcon img.top_img_logo {
     position: absolute;
     top: 60px;
-    left: 20px;
-    width: 564px;
-    height: 134px;
+    left: -180px;
 }
 header .nav_wraper {
     margin: 0 auto;
