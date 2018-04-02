@@ -82,9 +82,6 @@ li {
     color: #fff;
 }
 #topimg {
-    height: 360px;
-    width: 100%;
-    margin: 0 auto;
     border-top: 5px solid #c6252b;
     background: #0839A2;
     overflow: hidden;
