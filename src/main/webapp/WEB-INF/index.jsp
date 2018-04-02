@@ -45,7 +45,7 @@
 <script type="text/javascript">
 </script>
 </head>
-<body>
+<body style="min-width: 980px;">
 	<div id="home">
 		<header>
 			<div></div>
