@@ -25,20 +25,27 @@ public class ArticleEntity extends BaseEntity {
 		public static final int TOPIC_COLLECTION = 8; // 专题集锦
 	}
 
-	private Integer type; // 文章类型
+	// 文章类型
+	private Integer type; 
 
-	private String title; // 标题
+	// 标题
+	private String title; 
 
-	private String source; // 来源
+	// 来源
+	private String source; 
 
-	private String linkPath; // 文章地址
+	// 文章地址
+	private String linkPath; 
 
-	private String content; // 文章内容
+	// 文章内容
+	private String content; 
 
-	private String imagePath; // 图片地址
+	// 图片地址
+	private String imagePath; 
 
+	// 专题ID
 	@Column(name = "topic_id")
-	private Long topicId; // 专题ID
+	private Long topicId; 
 
 	public ArticleEntity() {
 		// TODO Auto-generated constructor stub

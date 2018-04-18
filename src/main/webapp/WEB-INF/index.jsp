@@ -40,6 +40,19 @@
 }
 </style>
 
+<script type="text/javascript">
+	try {
+		var urlhash = window.location.hash;
+		if (!urlhash.match('formapp')) {
+			if ((navigator.userAgent.match(/(iPhone|iPod|Android|iPad)/))) {
+				window.location = 'm';
+			}
+		}
+	} catch (err) {
+		
+	}
+</script>
+
 <%@ include file="/WEB-INF/template/top.jsp"%>
 <%@ include file="/WEB-INF/template/footer.jsp"%>
 <script type="text/javascript">
@@ -71,8 +84,7 @@
 			</div>	
 		</header>
 		<div id="content"></div>
-		<footer>
-		</footer>
+		<footer></footer>
 	</div>
 </body>
 

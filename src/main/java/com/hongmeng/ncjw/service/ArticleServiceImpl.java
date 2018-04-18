@@ -73,4 +73,9 @@ public class ArticleServiceImpl implements ArticleService {
 		return (List<ArticleEntity>) articleRepository.findAllByOrderByCreateTimeDesc();
 	}
 
+	@Override
+	public Page<ArticleEntity> listPaging(Integer type, int page, int size) {
+		return articleRepository.findByTypeOrderByUpdateTimeDesc(type, new PageRequest(page, size));
+	}
+
 }

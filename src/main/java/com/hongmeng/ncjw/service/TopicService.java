@@ -19,5 +19,5 @@ public interface TopicService {
 	List<TopicEntity> list();
 	
 	List<TopicEntity> listPaging(int page, int size);
-
+	
 }

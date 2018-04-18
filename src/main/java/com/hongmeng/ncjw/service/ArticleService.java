@@ -2,6 +2,8 @@ package com.hongmeng.ncjw.service;
 
 import java.util.List;
 
+import org.springframework.data.domain.Page;
+
 import com.hongmeng.ncjw.entity.ArticleEntity;
 
 public interface ArticleService {
@@ -24,5 +26,8 @@ public interface ArticleService {
 	List<?> listByCount();
 	
 	List<ArticleEntity> list();
+	
+	// m
+	Page<ArticleEntity> listPaging(Integer type, int page, int size);
 
 }
