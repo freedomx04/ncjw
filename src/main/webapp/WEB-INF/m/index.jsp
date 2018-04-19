@@ -10,11 +10,6 @@
 	<title>南城县工业园区综合信息服务平台</title>
 	
 	<style type="text/css">
-	.page-index {
-		position: relative;
-		min-height: 100%;
-		padding-bottom: 90px;
-	}
 	.swiper-container img {
 		width: 100%;
 		height: 100%;
@@ -26,28 +21,6 @@
 		color: #fff;
 		font-size: 18px;
 		width: 90%;
-	}
-	.index-block {
-		padding: 10px;
-	}
-	.index-title {
-		min-height: 34px;
-		color: #a30000;
-		border-bottom: 2px solid #a30000;
-		margin-bottom: 10px;
-	}
-	.index-title h2 {
-		font-size: 20px;
-		padding-left: 10px;
-		margin-top: 10px;
-	}
-	.index-title a {
-		font-size: 14px;
-		padding-top: 5px;
-	}
-	.index-content li {
-		font-size: 16px;
-		margin: 20px 10px;
 	}
 	</style>
 </head>
@@ -62,7 +35,7 @@
 			<div class="swiper-wrapper">
 				<c:forEach var="photonews" items="${photonewsList}">
 					<div class="swiper-slide">
-						<a href="" target="_blank">
+						<a href="${ctx}/m/article?articleId=${photonews.id}">
 							<img src="${ctx}/${photonews.imagePath}"> 
 							<span class="swiper-title text-ellipsis">${photonews.title}</span>
 						</a>
@@ -78,13 +51,13 @@
 	<div class="main white-bg">
 		<div class="index-block">
 			<div class="index-title">
-				<h2>南城廉政<a href="" class="pull-right">更多></a></h2>
+				<h2>南城廉政<a href="${ctx}/m/list?type=3" class="pull-right">更多></a></h2>
 			</div>
 			<div class="index-content">
 				<ul class="list-unstyled">
 					<c:forEach var="integritynews" items="${integritynewsList}">
 						<li class="text-ellipsis">
-							<a href="#">${integritynews.title}</a>
+							<a href="${ctx}/m/article?articleId=${integritynews.id}">${integritynews.title}</a>
 						</li>
 					</c:forEach>
 				</ul>
@@ -96,13 +69,13 @@
 	<div class="main white-bg">
 		<div class="index-block">
 			<div class="index-title">
-				<h2>曝光台<a href="" class="pull-right">更多></a></h2>
+				<h2>曝光台<a href="${ctx}/m/list?type=5" class="pull-right">更多></a></h2>
 			</div>
 			<div class="index-content">
 				<ul class="list-unstyled">
 					<c:forEach var="exposure" items="${exposureList}">
 						<li class="text-ellipsis">
-							<a href="#">${exposure.title}</a>
+							<a href="${ctx}/m/article?articleId=${exposure.id}">${exposure.title}</a>
 						</li>
 					</c:forEach>
 				</ul>
@@ -114,13 +87,13 @@
 	<div class="main white-bg">
 		<div class="index-block">
 			<div class="index-title">
-				<h2>组织结构<a href="" class="pull-right">更多></a></h2>
+				<h2>组织结构<a href="${ctx}/m/list?type=1" class="pull-right">更多></a></h2>
 			</div>
 			<div class="index-content">
 				<ul class="list-unstyled">
 					<c:forEach var="organization" items="${organizationList}">
 						<li class="text-ellipsis">
-							<a href="#">${organization.title}</a>
+							<a href="${ctx}/m/article?articleId=${organization.id}">${organization.title}</a>
 						</li>
 					</c:forEach>
 				</ul>
@@ -141,7 +114,7 @@
 					</a>
 				</div>
 				<div style="background-color: #9B1017; border-radius: 0 0 15px 15px; 
-					color: #fff; margin-top: 10px; padding: 5px 20px; font-size: 14px;">
+					color: #fff; margin-top: 10px; padding: 10px 20px 5px; font-size: 14px;">
 					<p>举报电话:&nbsp;(0794)7177007;&nbsp;&nbsp;(0794)12388</p>
 					<p>来信请寄:&nbsp;南城县纪委信访室(县行政中心317室)</p>
 					<p>邮编:&nbsp;344700</p>
@@ -154,13 +127,13 @@
 	<div class="main white-bg">
 		<div class="index-block">
 			<div class="index-title">
-				<h2>专题集锦<a href="" class="pull-right">更多></a></h2>
+				<h2>专题集锦<a href="${ctx}/m/topicList" class="pull-right">更多></a></h2>
 			</div>
 			<div class="index-content">
 				<ul class="list-unstyled">
 					<c:forEach var="topic" items="${topicList}">
 						<li class="text-ellipsis">
-							<a href="#">${topic.title}</a>
+							<a href="${ctx}/m/topic?topicId=${topic.id}">${topic.title}</a>
 						</li>
 					</c:forEach>
 				</ul>
@@ -172,13 +145,13 @@
 	<div class="main white-bg">
 		<div class="index-block">
 			<div class="index-title">
-				<h2>信息公开<a href="" class="pull-right">更多></a></h2>
+				<h2>信息公开<a href="${ctx}/m/list?type=4" class="pull-right">更多></a></h2>
 			</div>
 			<div class="index-content">
 				<ul class="list-unstyled">
 					<c:forEach var="publish" items="${publishList}">
 						<li class="text-ellipsis">
-							<a href="#">${publish.title}</a>
+							<a href="${ctx}/m/article?articleId=${publish.id}">${publish.title}</a>
 						</li>
 					</c:forEach>
 				</ul>
@@ -190,13 +163,13 @@
 	<div class="main white-bg">
 		<div class="index-block">
 			<div class="index-title">
-				<h2>工作动态<a href="" class="pull-right">更多></a></h2>
+				<h2>工作动态<a href="${ctx}/m/list?type=7" class="pull-right">更多></a></h2>
 			</div>
 			<div class="index-content">
 				<ul class="list-unstyled">
 					<c:forEach var="workDynamic" items="${workDynamicList}">
 						<li class="text-ellipsis">
-							<a href="#">${workDynamic.title}</a>
+							<a href="${ctx}/m/article?articleId=${workDynamic.id}">${workDynamic.title}</a>
 						</li>
 					</c:forEach>
 				</ul>
@@ -208,13 +181,13 @@
 	<div class="main white-bg">
 		<div class="index-block">
 			<div class="index-title">
-				<h2>廉政教育<a href="" class="pull-right">更多></a></h2>
+				<h2>廉政教育<a href="${ctx}/m/list?type=6" class="pull-right">更多></a></h2>
 			</div>
 			<div class="index-content">
 				<ul class="list-unstyled">
 					<c:forEach var="education" items="${educationList}">
 						<li class="text-ellipsis">
-							<a href="#">${education.title}</a>
+							<a href="${ctx}/m/article?articleId=${education.id}">${education.title}</a>
 						</li>
 					</c:forEach>
 				</ul>
