@@ -7,7 +7,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<title>南城县工业园区综合信息服务平台</title>
+	<title>南城廉政网</title>
 	
 	<style type="text/css">
 	.swiper-container img {
