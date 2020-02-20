@@ -146,7 +146,7 @@
 				</a>
 			</div>
 			<div class="report-contact">
-				<p>举报电话:&nbsp;&nbsp;(0794)7177007;&nbsp;&nbsp;(0794)12388</p>
+				<p>举报电话:&nbsp;&nbsp;(0794)12388</p>
 				<p>来信请寄:&nbsp;&nbsp;南城县纪委信访室（县行政中心317室）</p>
 				<p>邮编:&nbsp;&nbsp;344700</p>
 			</div>
